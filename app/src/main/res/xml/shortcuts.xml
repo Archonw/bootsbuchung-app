@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Langer Druck aufs App-Symbol: „Verein wechseln“ -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="verein_wechseln"
+        android:shortcutShortLabel="@string/kurzbefehl_wechseln">
+        <intent
+            android:action="io.github.archonw.bootsbuchung.VEREIN_WECHSELN"
+            android:targetClass="io.github.archonw.bootsbuchung.StartActivity"
+            android:targetPackage="io.github.archonw.bootsbuchung" />
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hintergrund">#0F1311</color>
+    <color name="text">#E6EBE7</color>
+    <color name="text_leise">#9AA39E</color>
+    <color name="akzent">#45C266</color>
+    <color name="auf_akzent">#06130B</color>
+    <color name="fehler">#FF8A80</color>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wurzel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hintergrund"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="32dp"
+            android:contentDescription="@null"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="@string/einrichtung_titel"
+            android:textColor="@color/text"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="@string/einrichtung_text"
+            android:textColor="@color/text_leise"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/adresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:autofillHints="url"
+            android:hint="@string/einrichtung_hinweis"
+            android:imeOptions="actionGo"
+            android:inputType="textUri"
+            android:minHeight="48dp"
+            android:singleLine="true"
+            android:textColor="@color/text"
+            android:textColorHint="@color/text_leise"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/meldung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/fehler"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/laeuft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:indeterminateTint="@color/akzent"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/verbinden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/akzent"
+            android:minHeight="52dp"
+            android:text="@string/einrichtung_knopf"
+            android:textColor="@color/auf_akzent"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text="@string/einrichtung_fusszeile"
+            android:textColor="@color/text_leise"
+            android:textSize="13sp" />
+    </LinearLayout>
+</ScrollView>

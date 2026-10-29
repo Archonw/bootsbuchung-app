@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="banner">#0C0E0D</color>
+    <color name="hintergrund">#E8ECE7</color>
+    <color name="text">#121714</color>
+    <color name="text_leise">#59635D</color>
+    <color name="akzent">#1B7D33</color>
+    <color name="auf_akzent">#FFFFFF</color>
+    <color name="fehler">#B42318</color>
+    <color name="segel_gruen">#45C266</color>
+    <color name="segel_weiss">#F2F4F2</color>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Bootsbuchung" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/akzent</item>
+        <item name="android:colorAccent">@color/akzent</item>
+        <item name="android:windowBackground">@color/hintergrund</item>
+        <item name="android:statusBarColor">@color/banner</item>
+        <item name="android:navigationBarColor">@color/hintergrund</item>
+    </style>
+
+    <!-- Startbildschirm: nur kurz zu sehen, bis die Buchung offen ist -->
+    <style name="Theme.Bootsbuchung.Start">
+        <item name="android:windowBackground">@color/banner</item>
+        <item name="android:navigationBarColor">@color/banner</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bootsbuchung</string>
+    <string name="einrichtung_titel">Mit deinem Verein verbinden</string>
+    <string name="einrichtung_text">Gib die Adresse der Bootsbuchung deines Vereins ein. Du findest sie in der Adresszeile, wenn du die Buchung im Browser öffnest.</string>
+    <string name="einrichtung_hinweis">z. B. boote.mein-verein.de</string>
+    <string name="einrichtung_knopf">Verbinden</string>
+    <string name="einrichtung_fusszeile">Die App funktioniert mit Vereinen, die die Bootsbuchung für Vereine auf Basis von MRBS nutzen.</string>
+    <string name="fehler_adresse">Bitte gib eine gültige Adresse ein, z. B. boote.mein-verein.de</string>
+    <string name="fehler_keine_bootsbuchung">Unter dieser Adresse läuft keine Bootsbuchung mit App-Unterstützung. Bitte prüfe die Adresse oder frag beim Verein nach.</string>
+    <string name="kurzbefehl_wechseln">Verein wechseln</string>
+</resources>
