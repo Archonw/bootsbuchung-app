@@ -33,7 +33,7 @@ Sport
 
 ## Kontakt
 
-E-Mail: HIER EINTRAGEN
+E-Mail: jankroh80@gmail.com
 Website: https://github.com/Archonw/mrbs-bootsbuchung
 
 ## Datenschutzerklärung (URL)

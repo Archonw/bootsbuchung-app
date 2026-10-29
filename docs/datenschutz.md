@@ -10,8 +10,10 @@ nicht beim Anbieter der App.
 
 ## Anbieter der App
 
-HIER NAME UND ANSCHRIFT EINTRAGEN
-E-Mail: HIER E-MAIL-ADRESSE EINTRAGEN
+Jan Borghoff  
+Josefstr. 19  
+45772 Marl  
+E-Mail: jankroh80@gmail.com
 
 ## Welche Daten die App verarbeitet
 
