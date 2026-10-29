@@ -22,6 +22,15 @@ android {
     }
 
     signingConfigs {
+        // Fester Test-Schlüssel (kein Geheimnis): Test-Versionen lassen sich
+        // so ohne Deinstallieren aktualisieren und haben einen bekannten
+        // Fingerabdruck für die assetlinks.json der Testserver.
+        getByName("debug") {
+            storeFile = file("debug.keystore")
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
         if (keystoreFile != null) {
             create("release") {
                 storeFile = file(keystoreFile)

@@ -25,8 +25,9 @@ Unter *Artifacts* liegt:
 
 - `bootsbuchung-test.apk` – zum direkten Installieren auf dem Handy
   (in den Android-Einstellungen „Unbekannte Apps installieren“ erlauben).
-  Jeder Build hat einen anderen Test-Schlüssel: vor dem Installieren einer
-  neuen Test-Version die alte deinstallieren.
+  Test-Versionen sind mit dem festen Schlüssel `app/debug.keystore`
+  signiert (kein Geheimnis, nur für Tests) und lassen sich einfach
+  drüber installieren.
 - `bootsbuchung-store.aab` – für den Play Store. Entsteht nur, wenn die
   Secrets für den Signierschlüssel eingetragen sind:
   `BB_KEYSTORE_BASE64`, `BB_KEYSTORE_PASSWORD`, `BB_KEY_ALIAS`, `BB_KEY_PASSWORD`.

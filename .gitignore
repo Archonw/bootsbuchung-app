@@ -7,4 +7,5 @@ local.properties
 # Signierschlüssel niemals ins Repo
 *.jks
 *.keystore
+!app/debug.keystore
 keystore.properties
