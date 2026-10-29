@@ -34,6 +34,12 @@ Unter *Artifacts* liegt:
 
 Lokal: Android Studio öffnen, Projekt öffnen, *Run*.
 
+## Play Store
+
+- [Signierschlüssel einrichten](docs/play-store/signierschluessel.md)
+- [Texte für den Store-Eintrag](docs/play-store/store-eintrag.md)
+- [Datenschutzerklärung](docs/datenschutz.md)
+
 ## Lizenz
 
 GPL-2.0, wie das Hauptprojekt.
